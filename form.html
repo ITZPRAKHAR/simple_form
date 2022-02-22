@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Form</title>
+    </head>
+    <body>
+    <form>
+    <fieldset>
+    <legend>Personal information</legend><br>
+    Name:&nbsp;&nbsp;
+    <input type="text" name="username" placeholder="xyz" required><br><br>
+    Email:&nbsp;&nbsp;
+    <input type="text" name="email"
+    placeholder="xyz@gmail.com" required><br><br>
+    Password:
+    <input type="password" name="password" required><br /><br>
+    Gender:<input type="radio" value="male">male&nbsp;&nbsp;
+    <input type="radio" value="female">female<br>
+    </fieldset><br>
+    <fieldset>
+    <legend>Additional information</legend><br>
+    Area of interest:
+    <input type="checkbox" value="reading">Reading&nbsp;&nbsp;<input type="checkbox" value="playing">Playing&nbsp;&nbsp;
+    <input type="checkbox" value="Singing">Singing&nbsp;&nbsp;
+    <input type="checkbox" value="other">Others<br><br>
+    Upload your Photo:
+    <input type="file" name="photo"><br><br>
+    Select state:
+    <select name="state">
+        <option>Haryana</option>
+        <option>Uttar pradesh</option>
+        <option>Delhi</option>
+        <option>Maharastra</option>
+        <option>Madhya pradesh</option>
+        <option>Other</option>
+    </select><br><br>
+    Write your views:
+    <textarea placeholder="write something about your views"></textarea><br><br></fieldset><br><br>
+    <input type="submit" value="submit" onclick="sayhello()">
+    &nbsp;&nbsp;<input type="reset" value="reset">
+    </form>
+    </body>
+    </html>
