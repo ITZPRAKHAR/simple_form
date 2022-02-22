@@ -1,2 +1,2 @@
 # simple_form
-Simple Detail Form | Using Basics
+Personal Detail Form | Using Basics 
